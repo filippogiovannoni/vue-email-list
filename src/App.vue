@@ -24,8 +24,8 @@ export default {
 <template>
   <h1>Generated Emails</h1>
 
-  <ul v-for="email in emailsArr">
-    <li>{{ email }}</li>
+  <ul>
+    <li v-for="email in emailsArr">{{ email }}</li>
   </ul>
 </template>
 
